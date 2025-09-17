@@ -31,6 +31,7 @@ public class HomePage {
         driver.findElement(cookieBtn).click();
         driver.findElement(loginMenu).click();
         driver.findElement(signIn).click();
+        System.out.println("Test");
 
     }
 
