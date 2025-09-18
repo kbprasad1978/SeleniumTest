@@ -28,9 +28,9 @@ public class CrmTest {
     @Before
     public void SetUp(){
        WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless=new");
-        driver = new ChromeDriver(options);
+        /*ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless=new");*/
+        driver = new ChromeDriver();
 
     }
 
