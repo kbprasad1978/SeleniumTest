@@ -5,32 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-<<<<<<< HEAD
     <artifactId>Selenium</artifactId>
-=======
-    <artifactId>Assignment1</artifactId>
->>>>>>> 6bf5f6d6782abc8488cd116048bd82054d57c770
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-<<<<<<< HEAD
             <version>4.30.0</version>
-=======
-            <version>4.29.0</version>
->>>>>>> 6bf5f6d6782abc8488cd116048bd82054d57c770
         </dependency>
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-remote-driver</artifactId>
-<<<<<<< HEAD
             <version>4.30.0</version>
-=======
-            <version>4.29.0</version>
->>>>>>> 6bf5f6d6782abc8488cd116048bd82054d57c770
         </dependency>
 
         <dependency>
@@ -40,8 +28,6 @@
         </dependency>
 
         <dependency>
-            <!-- https://mvnrepository.com/artifact/junit/junit -->
-
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
@@ -60,7 +46,6 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
-<<<<<<< HEAD
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-api</artifactId>
@@ -81,29 +66,17 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>htmlunit-driver</artifactId>
-            <version>2.70.0</version> <!-- latest version available -->
+            <version>2.70.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.11.0</version>
             <scope>test</scope>
         </dependency>
-
-
-
-
-
-
-=======
->>>>>>> 6bf5f6d6782abc8488cd116048bd82054d57c770
-
-
     </dependencies>
 
-<<<<<<< HEAD
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -139,31 +112,18 @@
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.9.1.2184</version>
             </plugin>
+            
+            <!-- Compiler plugin for consistency -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
-
 </project>
-=======
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.13.0</version>
-            <configuration>
-                <source>11</source>
-                <target>11</target>
-                <encoding>UTF-8</encoding>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
-
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-11</project.build.sourceEncoding>
-    </properties>
-
-</project>
->>>>>>> 6bf5f6d6782abc8488cd116048bd82054d57c770
